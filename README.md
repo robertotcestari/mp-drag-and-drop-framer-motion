@@ -12,18 +12,18 @@ Utilize o React e o Framer Motion e construa uma playlist em que você poderá m
 
 ### Setup do Projeto
 
-Você poderá fazer esse Mini Projeto de duas maneiras. A *primeira* é criando todo o setup do zero; a *segunda* é já utilizando um template com o layout pronto. Se você quer também treinar outras *skills* front-end como design e CSS, faça o projeto "do zero". Caso queira focar apenas nas bibliotecas principais (*react* e *framer motion*), utilize nosso template.
+Você poderá fazer esse Mini Projeto de duas maneiras. A *primeira* é criando todo o setup do zero; a *segunda* é já utilizando um template com o layout pronto. Se você quer também treinar outras *skills* front-end como design e CSS, faça o projeto "do zero". Caso queira focar apenas nas bibliotecas principais (*react* e *framer motion*), utilize nosso template. 
 
 #### Fazendo tudo "do zero"
 
 - Faça o setup do projeto como quiser, mas, visando maior facilidade, recomendamos fazer o setup com o [vite](https://vitejs.dev/).
-- Utilize o Framer Motion na versão 10.12.7 (e não em versões posteriores, a não ser que esse [bug](https://github.com/framer/motion/issues/2183) esteja resolvido).
+- Utilize o Framer Motion na versão 10.12.7 (e não em versões posteriores, a não ser que esse [bug](https://github.com/framer/motion/issues/2183) esteja resolvido). 
 
 #### Iniciando com um template
 
 Se você quer já utilizar nosso [template pré-pronto](https://github.com/codante-io/mp-drag-and-drop-framer-motion/tree/template), basta você ir para a branch `template` através do comando: `git checkout template`
 
-Mas atenção: para que você tenha acesso a essa branch, na hora do fork no *github* você deverá desmarcar a opção "copiar apenas a branch `main`".
+Mas atenção: para que você tenha acesso a essa branch, na hora do fork no *github* você deverá desmarcar a opção "copiar apenas a branch `main`". 
 
 ### Deploy
 
