@@ -12,8 +12,18 @@ Utilize o React e o Framer Motion e construa uma playlist em que você poderá m
 
 ### Setup do Projeto
 
+Você poderá fazer esse Mini Projeto de duas maneiras. A *primeira* é criando todo o setup do zero; a *segunda* é já utilizando um template com o layout pronto. Se você quer também treinar outras *skills* front-end como design e CSS, faça o projeto "do zero". Caso queira focar apenas nas bibliotecas principais (*react* e *framer motion*), utilize nosso template.
+
+#### Fazendo tudo "do zero"
+
 - Faça o setup do projeto como quiser, mas, visando maior facilidade, recomendamos fazer o setup com o [vite](https://vitejs.dev/).
-- Utilize o Framer Motion na versão 10.12.7 (e não em versões posteriores, a não ser que esse [bug](https://github.com/framer/motion/issues/2183) esteja resolvido). 
+- Utilize o Framer Motion na versão 10.12.7 (e não em versões posteriores, a não ser que esse [bug](https://github.com/framer/motion/issues/2183) esteja resolvido).
+
+#### Iniciando com um template
+
+Se você quer já utilizar nosso [template pré-pronto](https://github.com/codante-io/mp-drag-and-drop-framer-motion/tree/template), basta você ir para a branch `template` através do comando: `git checkout template`
+
+Mas atenção: para que você tenha acesso a essa branch, na hora do fork no *github* você deverá desmarcar a opção "copiar apenas a branch `main`".
 
 ### Deploy
 
@@ -29,9 +39,13 @@ Utilize o React e o Framer Motion e construa uma playlist em que você poderá m
 
 Temos uma sugestão de design no Figma. Entretanto, fique à vontade para usar sua criatividade e criar um design único.
 
-🔗[Link do Figma](https://www.figma.com/community/file/1273711237095306477)
+### Screenshot
 
 ![Design Sugerido](https://codante.s3.sa-east-1.amazonaws.com/challenges/readme-images/drag-and-drop-com-react-e-framer-motion.png)
+
+### Figma - [link do design](https://www.figma.com/community/file/1276174742583537209)
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVoZiv3MR9jXHPD3yRWwVfD%2F%255BMini-Projeto%255D-Drag-and-Drop-com-React-e-Framer-Motion-(Community)%3Ftype%3Ddesign%26node-id%3D1%253A3%26mode%3Ddesign%26t%3DzbBTCrdR1hpKottd-1" allowfullscreen></iframe>
 
 ## 👉🏽 Sobre esse mini-projeto
 
