@@ -43,9 +43,9 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para usar s
 
 ![Design Sugerido](https://codante.s3.sa-east-1.amazonaws.com/challenges/readme-images/drag-and-drop-com-react-e-framer-motion.png)
 
-### Figma - [link do design](https://www.figma.com/community/file/1276174742583537209)
+### Figma 
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FVoZiv3MR9jXHPD3yRWwVfD%2F%255BMini-Projeto%255D-Drag-and-Drop-com-React-e-Framer-Motion-(Community)%3Ftype%3Ddesign%26node-id%3D1%253A3%26mode%3Ddesign%26t%3DzbBTCrdR1hpKottd-1" allowfullscreen></iframe>
+🔗 [Link do design](https://www.figma.com/community/file/1276174742583537209)
 
 ## 👉🏽 Sobre esse mini-projeto
 
