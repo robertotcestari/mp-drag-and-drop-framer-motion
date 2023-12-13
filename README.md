@@ -1,38 +1,27 @@
+# Drag and Drop com React e Framer Motion
+
 Utilize o React e o Framer Motion e construa uma playlist em que você poderá mudar a ordem das músicas utilizando _drag and drop_! O objetivo desse mini projeto é tanto _descobrir como o Framer Motion facilita o uso de drag and drop_ bem como entender como funciona, por trás dos panos, a lógica de reordenação de uma lista _drag and drop_.
+
+## 🤓 Antes de começar
+
+Esse Mini Projeto já possui um _template/boilerplate_ na raiz do repositório com o layout pronto para você focar apenas nas bibliotecas principais (_React_ e _Framer Motion_).
+
+Se você quer também treinar outras _skills_ front-end como design e CSS, você poderá fazer o projeto _do zero_ (basta apagar os arquivos e começar a partir daí).
 
 ## 🔨 Requisitos
 
 - A aplicação deverá ser mobile-first. Construa pensando em um celular, e não em um monitor.
-- Utilize as biliotecas React + Framer Motion.
+- Utilize as bibliotecas React + Framer Motion.
 - Crie o comportamento de "_drag and drop_":
   - Quando o usuário realizar um clique longo (sem soltar o mouse), o card de música devera "descolar" da aplicação e ser reordenável.
   - Quando o usuário "soltar" o clique, a música deverá permanecer em sua nova posição.
 - Utilize o componente `Reorder` do Framer Motion.
-- Estilize sua aplicação para ficar parecida com o design sugerido.
-
-### Setup do Projeto
-
-Você poderá fazer esse Mini Projeto de duas maneiras. A *primeira* é criando todo o setup do zero; a *segunda* é já utilizando um template com o layout pronto. Se você quer também treinar outras *skills* front-end como design e CSS, faça o projeto "do zero". Caso queira focar apenas nas bibliotecas principais (*react* e *framer motion*), utilize nosso template. 
-
-#### Fazendo tudo "do zero"
-
-- Faça o setup do projeto como quiser, mas, visando maior facilidade, recomendamos fazer o setup com o [vite](https://vitejs.dev/).
-- Utilize o Framer Motion na versão 10.12.7 (e não em versões posteriores, a não ser que esse [bug](https://github.com/framer/motion/issues/2183) esteja resolvido).
-
-#### Iniciando com um template
-
-Se você quer já utilizar nosso [template pré-pronto](https://github.com/codante-io/mp-drag-and-drop-framer-motion/tree/template), basta você ir para a branch `template` através do comando: `git checkout template`
-
-Mas atenção: para que você tenha acesso a essa branch, na hora do fork no *github* você deverá desmarcar a opção "copiar apenas a branch `main`". 
-
-### Deploy
-
-- Faça o deploy e submeta sua implementação no Codante.
 
 ## 🔍 Dicas
 
-- Estude sobre a biblioteca `framer/motion`, pois ela possui ferramentas poderosas de animação.
+- Estude a biblioteca `framer/motion`, pois ela possui ferramentas poderosas de animação.
 - Estude particularmente o componente `Reorder` da biblioteca `framer/motion` - [link](https://www.framer.com/motion/reorder/)
+- Estude a propriedade [pointer-events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) do CSS.
 - Utilize o Devtools do seu navegador com alguma pré-definição de tela mobile. O Chrome, por exemplo, [possui essa funcionalidade](https://developer.chrome.com/docs/devtools/device-mode/).
 
 ## 🎨 Design Sugerido
@@ -43,29 +32,28 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para usar s
 
 ![Design Sugerido](https://codante.s3.sa-east-1.amazonaws.com/challenges/readme-images/drag-and-drop-com-react-e-framer-motion.png)
 
-### Figma 
+### Figma
 
 🔗 [Link do design](https://www.figma.com/community/file/1276174742583537209)
 
-## 👉🏽 Sobre esse mini-projeto
+## 👉🏽 O que você irá praticar
 
-### Tecnologias sugeridas
+#### Framer Motion
 
-- **React**
-- **Vite**
-- **Framer Motion**
+- Listas reordenáveis com Drag and Drop
+- Componente `Reorder`
+
+#### React
+
+- Manipulação de Estado
+- Renderização de Listas
+
+#### CSS
+
+- Propriedade `pointer-events`
 
 ### Pré-requisitos
 
 - `HTML, CSS`
 - `JavaScript, React`
-
-## ❓ FAQ
-
-### Posso utilizar outras ferramentas além do Framer Motion para criar este mini projeto?
-
-Claro que sim, mas o que recomendamos aqui (e é o objetivo deste mini projeto) é que você se familiarize com a funcionalidade de reordenação da biblioteca `framer motion`.
-
-### Como faço para ver a resolução oficial?
-
-A resolução oficial sempre é disponibilizada no [site oficial do Codante](https://codante.io). Verifique na [nossa agenda](https://codante.io/agenda) se data da resolução deste mini projeto já está definida.
+- `TailwindCSS` é recomendável, já que o template está estilizado com ele.
